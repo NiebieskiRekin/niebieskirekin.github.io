@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-pl"><head><meta charset="utf-8">
+<html lang="pl"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -8,17 +8,19 @@
 <meta name="twitter:title" content="Tags | My website" />
 <meta itemprop="name" content="Tags | My website" />
 <meta name="application-name" content="Tags | My website" />
-<meta property="og:site_name" content="" />
+<meta property="og:site_name" content="Moja strona" />
 
 <meta name="description" content="">
 <meta itemprop="description" content="" />
 <meta property="og:description" content="" />
 <meta name="twitter:description" content="" />
 
-<meta property="og:locale" content="pl-pl" />
-<meta name="language" content="pl-pl" />
+<meta property="og:locale" content="pl" />
+<meta name="language" content="pl" />
 
-  <link rel="alternate" hreflang="en" href="https://niebieskirekin.github.io/tags/" title="" />
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/en-gb/tags/" title="English" />
+
+  <link rel="alternate" hreflang="pl" href="http://localhost:1313/tags/" title="Polish" />
 
 
 
@@ -28,10 +30,10 @@
 <meta name="generator" content="Hugo 0.126.2">
 
     
-    <meta property="og:url" content="https://niebieskirekin.github.io/tags/">
+    <meta property="og:url" content="http://localhost:1313/tags/">
   <meta property="og:site_name" content="My website">
   <meta property="og:title" content="Tags">
-  <meta property="og:locale" content="pl_pl">
+  <meta property="og:locale" content="pl">
   <meta property="og:type" content="website">
 
 
@@ -43,10 +45,10 @@
 
     
 
-    <link rel="canonical" href="https://niebieskirekin.github.io/tags/">
+    <link rel="canonical" href="http://localhost:1313/tags/">
     <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="My website">
     <link href="/tags/index.xml" rel="feed" type="application/rss+xml" title="My website">
-    <link href="/style.min.e390ba7da26222f4dc42a349955d76dbbe44e5ce2535a43de5a70633a0a9ec3c.css" rel="stylesheet">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
     
@@ -59,7 +61,7 @@
 
 
 
-<link rel="manifest" href="https://niebieskirekin.github.io/site.webmanifest">
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
 
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="msapplication-TileColor" content="#2d89ef">
@@ -70,22 +72,18 @@
 
     
     
-  
-
-
-    
 </head>
 <body data-theme = "" class="notransition">
 
-<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+<script src="/js/theme.js"></script>
 
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
-        <a href="https://niebieskirekin.github.io/" class="logo">
+        <a href="http://localhost:1313/" class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
 stroke-linejoin="round" class="feather feather-home">
-<title></title>
+<title>Strona główna</title>
 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
 <polyline points="9 22 9 12 15 12 15 22"></polyline>
 </svg>
@@ -101,10 +99,67 @@ stroke-linejoin="round" class="feather feather-home">
             <ul class="trigger-container">
                 
                 
+                <li>
+                    <a class="menu-link " href="/">
+                        Strona główna
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/projects/">
+                        Projekty
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        O mnie
+                    </a>
+                    
+                </li>
+                
                 <li class="menu-separator">
                     <span>|</span>
                 </li>
                 
+                
+                    <li>
+                        <select aria-label="Select Language" class="lang-list" id="select-language" onchange="location = this.value;">
+                            
+                            
+                            
+                                
+                                
+                                    
+                                        
+                                        
+                                            <option id="en-gb" value="http://localhost:1313/en-gb/tags/">EN</option>
+                                        
+                                    
+                                
+                                    
+                                
+                            
+                                
+                                
+                                    
+                                
+                                    
+                                        
+                                        
+                                            <option id="pl" value="http://localhost:1313/tags/" selected>PL
+                                            </option>
+                                        
+                                    
+                                
+                            
+                        </select>                
+                    </li>
+                    <li class="menu-separator">
+                        <span>|</span>
+                    </li>
                 
             </ul>
             <a id="mode" href="#">
@@ -140,11 +195,18 @@ stroke-linejoin="round" class="feather feather-home">
 </a>
 </div>
     <small class="footer_copyright">
-        © 2025 .
-        
+        © 2025 Tomasz Pawłowski.
+        Stworzone z <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
     </small>
-</footer>
+</footer><a href="#" title="Powrót na górę strony" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
 
+</a>
+
+
+    
 
 
 
@@ -152,7 +214,7 @@ stroke-linejoin="round" class="feather feather-home">
 
 
     
-    <script src="https://niebieskirekin.github.io/js/main.min.4ee188e1744c19816e95a540b2650ed9f033ea0371e74eac8e717355cfca8741.js" integrity="sha256-TuGI4XRMGYFulaVAsmUO2fAz6gNx506sjnFzVc/Kh0E="></script>
+    <script async src="http://localhost:1313/js/main.js" ></script>
 
     
 

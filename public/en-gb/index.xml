@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My website</title>
+    <link>http://localhost:1313/en-gb/</link>
+    <description>Recent content on My website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://localhost:1313/en-gb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en-gb/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en-gb/about/</guid>
+      
+      <description>Tomasz Pawłowski e-mail: tomasz.pawlowski@tutanota.com portfolio: github.com/NiebieskiRekin
+About me My interests include Linux and electronics projects with the Arduino. I aspire to become a Backend developer or a DevOps engineer. People call me a tidy-minded, calm and self-disciplined person. Studying is the element of mine, I absorb knowledge quickly.
+Skills &amp;#x2328;&amp;#xfe0f; C/C++ Python PostgreSQL Git Java Android Kotlin &amp;#x1f5a5;&amp;#xfe0f; Linux DevOps Bash Docker Ansible Traefik GitHub Actions AWS Google Cloud &amp;#x1f310; Polish - Native speaker English - C1 (ACERT) French - B2 (DELF) German - A2 </description>
+      
+    </item>
+    
+  </channel>
+</rss>

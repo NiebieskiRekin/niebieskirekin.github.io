@@ -1,9 +1,9 @@
 {
-    "name": "My website",
-    "short_name": "My website",
-    "start_url": "https://niebieskirekin.github.io/",
+    "name": "sitename",
+    "short_name": "sitename",
+    "start_url": "/",
     "theme_color": "#434648",
-    "background_color": "#ffffff",
+    "background_color": "#fff",
     "display": "standalone",
     "icons": [
         {
