@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My website</title>
-    <link>http://localhost:1313/</link>
+    <link>https://niebieskirekin.github.io/</link>
     <description>Recent content on My website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl-pl</language>
-    <lastBuildDate>Mon, 27 Jan 2025 00:05:44 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl-pl</language><atom:link href="https://niebieskirekin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lulus</title>
-      <link>http://localhost:1313/posts/lulus/</link>
-      <pubDate>Mon, 27 Jan 2025 00:05:44 +0100</pubDate>
+      <link>https://niebieskirekin.github.io/posts/lulus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/lulus/</guid>
+      <guid>https://niebieskirekin.github.io/posts/lulus/</guid>
       
-      <description>{{ (index (readDir &amp;ldquo;/assets/Lulus&amp;rdquo; | shuffle | first 1) 0).Name }}</description>
+      <description></description>
       
     </item>
     
