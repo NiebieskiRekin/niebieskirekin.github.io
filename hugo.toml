@@ -1,6 +1,7 @@
 baseURL = 'https://niebieskirekin.github.io/'
 languageCode = 'pl-pl'
 title = 'My website'
+enableEmoji = true
 
 [module]
 [[module.imports]]
@@ -9,3 +10,7 @@ path = "github.com/hugo-sid/hugo-blog-awesome"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/niebieskirekin"
+
+
+[security]
+enableInlineShortcodes = true

@@ -1,6 +1,5 @@
 +++
-title = 'Lulus'
+title = 'Luluś'
 +++
 
-
-![Lulson](/Lulus/1.jpeg)
+{{< lulus >}}
