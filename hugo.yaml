@@ -1,0 +1,165 @@
+baseURL: https://niebieskirekin.github.io/
+defaultContentLanguage: pl
+# defaultContentLanguageInSubdir: true
+title: Tomasz Pawłowski
+theme: ["PaperMod"]
+paginate: 5
+enableEmoji: true
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  pl:
+    # contentDir: content/pl
+    disabled: false
+    languageName: "Polski"
+    weight: 0
+    params:
+      languageCode: pl
+      profileMode:
+        subtitle: "O mnie... [:wrench: W TRAKCIE BUDOWY]"
+        imageTitle: Moje zdjęcie
+      editPost:
+        URL: "https://github.com/NiebieskiRekin/niebieskirekin.github.io"
+        Text: "Zasugeruj zmiany" # edit text
+        appendFilePath: true # to append file path to Edit link
+    menu:
+      main:
+        - identifier: categories
+          name: Kategorie
+          # url: /pl/kategorie/
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tagi
+          # url: /pl/tagi/
+          url: /tags/
+          weight: 20
+        - identifier: projects
+          name: Projekty
+          # url: /pl/projekty/
+          url: /projects/
+          weight: 30
+        - identifier: search
+          name: "🔍"
+          # url: /pl/wyszukaj/
+          url: /search/
+          weight: 40
+    taxonomies:
+      category: kategorie
+      tag: tagi
+      project: projekty
+
+  en:
+    # contentDir: content/en
+    disabled: false
+    languageName: "English"
+    weight: 10
+    params:
+      langageCode: en
+      profileMode:
+        subtitle: "About me... [:wrench: WORK IN PROGRESS]"
+        imageTitle: My photo
+      editPost:
+        URL: "https://github.com/NiebieskiRekin/niebieskirekin.github.io"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+    menu:
+      main:
+        - identifier: categories
+          name: Categories
+          url: /en/categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /en/tags/
+          weight: 20
+        - identifier: projects
+          name: Projects
+          url: /en/projects/
+          weight: 30
+        - identifier: search
+          name: "🔍"
+          url: /en/search/
+          weight: 40
+    taxonomies:
+      category: categories
+      tag: tags
+      project: projects
+
+params:
+  contact:
+    email: tomasz.pawlowski@tutanota.com
+  env: production
+  keywords: [Blog, Portfolio]
+  author: Tomasz Pawłowski
+  # images: ["/assets/avatar.jpg"]
+  DateFormat: "2 January 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Tomasz Pawłowski
+    imageUrl: "avatar.png"
+
+  socialIcons:
+    - name: email
+      url: "mailto:tomasz.pawlowski@tutanota.com"
+    - name: github
+      url: "https://github.com/NiebieskiRekin/"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  # fuseOpts:
+  #   isCaseSensitive: false
+  #   shouldSort: true
+  #   location: 0
+  #   distance: 1000
+  #   threshold: 0.4
+  #   minMatchCharLength: 0
+  #   limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+  #   keys: ["title", "permalink", "summary", "content"]
+
+output:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    style: monokai

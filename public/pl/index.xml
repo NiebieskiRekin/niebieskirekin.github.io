@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tomasz Pawłowski</title>
+    <link>http://localhost:1313/pl/</link>
+    <description>Recent content on Tomasz Pawłowski</description>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>pl</language>
+    <lastBuildDate>Thu, 13 Feb 2025 20:55:41 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Next Transit</title>
+      <link>http://localhost:1313/pl/projects/next-transit/</link>
+      <pubDate>Thu, 13 Feb 2025 20:55:41 +0100</pubDate>
+      <guid>http://localhost:1313/pl/projects/next-transit/</guid>
+      <description>some random text</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pl/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pl/about/</guid>
+      <description>Tomasz Pawłowski e-mail: tomasz.pawlowski@tutanota.com portfolio: github.com/NiebieskiRekin
+O mnie Nauka to mój żywioł, szybko przyswajam nowe informacje. Interesuję się Linuxem oraz tworzeniem projektów z Arduino. Chciałbym rozwijać się jako programista Backend lub DevOps.
+Umiejętności &amp;#x2328;&amp;#xfe0f; C/C++ Python PostgreSQL Git Java Android Kotlin &amp;#x1f5a5;&amp;#xfe0f; Linux DevOps Bash Docker Ansible Traefik GitHub Actions AWS Google Cloud &amp;#x1f310; Angielski - C1 (ACERT) Francuski - B2 (DELF) Niemiecki - A2 </description>
+    </item>
+    <item>
+      <title>Luluś 😺</title>
+      <link>http://localhost:1313/pl/lulus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pl/lulus/</guid>
+      <description> Jakim Lulusiem jesteś dzisiaj? Losuj ponownie </description>
+    </item>
+  </channel>
+</rss>

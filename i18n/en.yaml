@@ -1,0 +1,24 @@
+## HOME ##
+- id: "home.home"
+  translation: "Home"
+
+- id: "home.recent_projects"
+  translation: "Recent projects"
+
+- id: "home.see_all_projects"
+  translation: "All projects"
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "Table of contents"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "Go to top"
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "PAGE NOT FOUND"
+
+- id: "errors.404_description"
+  translation: "Nothing to find here... 🏜️"
