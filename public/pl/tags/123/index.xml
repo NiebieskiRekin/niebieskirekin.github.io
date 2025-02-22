@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>123 on Tomasz Pawłowski</title>
+    <link>http://localhost:1313/pl/tags/123/</link>
+    <description>Recent content in 123 on Tomasz Pawłowski</description>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>pl</language>
+    <lastBuildDate>Thu, 13 Feb 2025 20:55:41 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/pl/tags/123/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Next Transit</title>
+      <link>http://localhost:1313/pl/projects/next-transit/</link>
+      <pubDate>Thu, 13 Feb 2025 20:55:41 +0100</pubDate>
+      <guid>http://localhost:1313/pl/projects/next-transit/</guid>
+      <description>some random text</description>
+    </item>
+  </channel>
+</rss>

@@ -2,7 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/next-transit/</loc>
+    <loc>http://localhost:1313/pl/tags/123/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/123/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/123/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/categories/aaa/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/aaa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/aaa/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/tags/abc/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/abc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/abc/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/categories/bbb/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/bbb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/bbb/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/categories/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/categories/ccc/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/ccc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/ccc/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/projects/next-transit/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,10 +90,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/projects/next-transit/"
+                href="http://localhost:1313/pl/projects/next-transit/"
                 />
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/pl/projects/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -25,10 +103,36 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/projects/"
+                href="http://localhost:1313/pl/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/pl/tags/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/tags/test/</loc>
+    <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/test/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -38,10 +142,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/pl/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/pl/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,18 +154,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/pl/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/kategorie/</loc>
+    <loc>http://localhost:1313/pl/lulus/</loc>
   </url><url>
-    <loc>http://localhost:1313/lulus/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projekty/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tagi/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/pl/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,7 +168,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/search/"
+                href="http://localhost:1313/pl/search/"
                 />
   </url>
 </urlset>

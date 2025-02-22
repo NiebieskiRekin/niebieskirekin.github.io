@@ -1,4 +1,4 @@
-{{- $tags := .Params.tags -}} {{- if $tags -}} {{- $lastIndex := sub (len $tags)
-1 -}} {{- range $index, $tag := $tags -}}
-<a href="/tags/{{ $tag | urlize }}"> {{ $tag }}</a>
-{{- if ne $index $lastIndex }}&nbsp;·&nbsp;{{ end -}} {{- end -}} {{- end -}}
+{{ range $i, $e := .Params.tags -}}
+    {{- if $i -}}, {{ end -}}
+    <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
+{{- end -}}

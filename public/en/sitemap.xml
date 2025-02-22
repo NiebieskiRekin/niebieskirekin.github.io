@@ -4,28 +4,88 @@
   <url>
     <loc>http://localhost:1313/en/tags/123/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/123/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/123/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/categories/aaa/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/aaa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/aaa/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/tags/abc/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/abc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/abc/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/categories/bbb/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/bbb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/bbb/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/categories/ccc/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/ccc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/ccc/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/projects/next-transit/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/projects/next-transit/"
+                href="http://localhost:1313/pl/projects/next-transit/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -38,7 +98,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/projects/"
+                href="http://localhost:1313/pl/projects/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -48,16 +108,36 @@
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/tags/test/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/test/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-02-13T20:55:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/pl/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -69,7 +149,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/pl/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -81,7 +161,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/search/"
+                href="http://localhost:1313/pl/search/"
                 />
     <xhtml:link
                 rel="alternate"

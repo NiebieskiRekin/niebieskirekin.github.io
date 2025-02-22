@@ -1,6 +1,6 @@
 baseURL: https://niebieskirekin.github.io/
 defaultContentLanguage: pl
-# defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: true
 title: Tomasz Pawłowski
 theme: ["PaperMod"]
 paginate: 5
@@ -11,8 +11,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-minify:
-  disableXML: true
+# minify:
+  # disableXML: true
   # minifyOutput: true
 
 languages:
@@ -34,28 +34,24 @@ languages:
       main:
         - identifier: categories
           name: Kategorie
-          # url: /pl/kategorie/
-          url: /categories/
+          url: /pl/categories/
+          # url: /kategorie/
           weight: 10
         - identifier: tags
           name: Tagi
-          # url: /pl/tagi/
-          url: /tags/
+          url: /pl/tags/
+          # url: /tagi/
           weight: 20
         - identifier: projects
           name: Projekty
-          # url: /pl/projekty/
-          url: /projects/
+          url: /pl/projects/
+          # url: /projekty/
           weight: 30
         - identifier: search
           name: "🔍"
-          # url: /pl/wyszukaj/
-          url: /search/
+          url: /pl/search/
+          # url: /wyszukaj/
           weight: 40
-    taxonomies:
-      category: kategorie
-      tag: tagi
-      project: projekty
 
   en:
     # contentDir: content/en
@@ -89,10 +85,6 @@ languages:
           name: "🔍"
           url: /en/search/
           weight: 40
-    taxonomies:
-      category: categories
-      tag: tags
-      project: projects
 
 params:
   contact:
@@ -151,6 +143,20 @@ output:
   home:
     - HTML
     - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+    - JSON
+  taxonomy:
+    - HTML
+    - RSS
+    - JSON
+  term:
+    - HTML
+    - JSON
+  page:
+    - HTML
     - JSON
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
