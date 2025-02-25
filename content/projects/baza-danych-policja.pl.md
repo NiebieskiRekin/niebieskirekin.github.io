@@ -10,11 +10,12 @@ Aplikacja napisana w Oracle Apex (wymaganie prowadzącego) modelująca wydział 
 Założeniem projektu było zamodelowanie wybranej rzeczywistości najpierw jako diagram encji, a potem ręczne przekształcenie go do postaci relacyjnej bazy danych (SQL DDL).
 Następnie należało napisać aplikację dla naiwnego użytkownika zachowując pełną poprawność przetwarzania danych
 
-<https://github.com/NiebieskiRekin/DB-Drogowka>
-
 Repozytorium zawiera całkiem sporo SQL do tworzenia tabel, procedur, wyzwalaczy i perspektyw.
 Ponadto utworzyłem też skrypt w Pythonie do generowanie przykładowych danych do aplikacji z użyciem biblioteki Faker.
 
+## Repository
+
+<https://github.com/NiebieskiRekin/DB-Drogowka>
 
 ## Diagram encji
 
