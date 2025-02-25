@@ -19,7 +19,6 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/pl/projects/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/en/projects/">
 <link rel="alternate" hreflang="pl" href="http://localhost:1313/pl/projects/">
 <noscript>
     <style>
@@ -123,12 +122,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="http://localhost:1313/en/" title="English"
-                            aria-label="English">En</a>
-                    </li>
-                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -147,11 +140,6 @@
                     <span class="active">Projekty</span>
                 </a>
             </li>
-            <li>
-                <a href="http://localhost:1313/pl/search/" title="🔍 (Alt &#43; /)" accesskey=/>
-                    <span>🔍</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -164,13 +152,43 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Tank Busters
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>https://github.com/KamieniarzJakub/TankBusters
+Screeny Tech stack Opis gry Gra Tank Busters (nasza własna przeróbka gry asteroids PvPvE dla 2-4 graczy)
+Klient po uruchomieniu gry wybiera jeden z dostępnych pokoi:
+Rozgrywka jest już w toku - gracz dołącza jako obserwator i czeka do końca danej rudy. Gdy runda się zakończy - serwer zaprasza wszystkich graczy w pokoju do nowej rundy Rozgrywka jeszcze nie wystartowała - gracz dołącza do lobby, jeżeli w pokoju jest przynajmniej 2 gotowych graczy, to rozgrywka wystartuje automatycznie po upływie danego czasu....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-15 00:00:00 +0000 UTC'>15 grudnia 2024</span>&nbsp;·&nbsp;Tomasz Pawłowski&nbsp;·&nbsp;<a href='/pl/tags/cpp'>Cpp</a>, <a href='/pl/tags/linux'>Linux</a>, <a href='/pl/tags/c-sockets-api'>C sockets API</a></footer>
+  <a class="entry-link" aria-label="post link to Tank Busters" href="http://localhost:1313/pl/projects/tank-busters/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Baza Danych Policja
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Aplikacja na projekt zaliczeniowy z ‘Zarządzanie bazami danych SQL i NoSQL’. Aplikacja napisana w Oracle Apex (wymaganie prowadzącego) modelująca wydział ruchu drogowego policji. Założeniem projektu było zamodelowanie wybranej rzeczywistości najpierw jako diagram encji, a potem ręczne przekształcenie go do postaci relacyjnej bazy danych (SQL DDL). Następnie należało napisać aplikację dla naiwnego użytkownika zachowując pełną poprawność przetwarzania danych
+https://github.com/NiebieskiRekin/DB-Drogowka
+Repozytorium zawiera całkiem sporo SQL do tworzenia tabel, procedur, wyzwalaczy i perspektyw. Ponadto utworzyłem też skrypt w Pythonie do generowanie przykładowych danych do aplikacji z użyciem biblioteki Faker....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-10-21 00:00:00 +0000 UTC'>21 października 2024</span>&nbsp;·&nbsp;Tomasz Pawłowski&nbsp;·&nbsp;<a href='/pl/tags/oracledb'>Oracle db</a>, <a href='/pl/tags/oracle-apex'>Oracle apex</a>, <a href='/pl/tags/sql'>SQL</a>, <a href='/pl/tags/python'>Python</a></footer>
+  <a class="entry-link" aria-label="post link to Baza Danych Policja" href="http://localhost:1313/pl/projects/baza-danych-policja/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Next Transit
     </h2>
   </header>
   <div class="entry-content">
-    <p>some random text</p>
+    <p>A beginner project Android app that shows the next available transit info as a home-screen widget using Google Maps Directions API. Built in Kotlin using Android Studio IDE, Gradle and libraries such as: Jetpack Compose, Glance, Ktor, kotlinx-serialization &amp; kotlinx-coroutines
+https://github.com/NiebieskiRekin/next_transit</p>
   </div>
-  <footer class="entry-footer"><span title='2025-02-13 20:55:41 +0100 CET'>13 lutego 2025</span>&nbsp;·&nbsp;Tomasz Pawłowski&nbsp;·&nbsp;<a href='/pl/tags/test'>Test</a>, <a href='/pl/tags/123'>123rd</a>, <a href='/pl/tags/abc'>Abc</a></footer>
+  <footer class="entry-footer"><span title='2024-09-04 00:00:00 +0000 UTC'>4 września 2024</span>&nbsp;·&nbsp;Tomasz Pawłowski&nbsp;·&nbsp;<a href='/pl/tags/kotlin'>Kotlin</a>, <a href='/pl/tags/android'>Android</a>, <a href='/pl/tags/google-maps-api'>Google maps API</a></footer>
   <a class="entry-link" aria-label="post link to Next Transit" href="http://localhost:1313/pl/projects/next-transit/"></a>
 </article>
     </main>

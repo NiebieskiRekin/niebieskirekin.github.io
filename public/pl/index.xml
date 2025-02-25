@@ -6,14 +6,43 @@
     <description>Recent content on Tomasz Pawłowski</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>pl</language>
-    <lastBuildDate>Thu, 13 Feb 2025 20:55:41 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tank Busters</title>
+      <link>http://localhost:1313/pl/projects/tank-busters/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pl/projects/tank-busters/</guid>
+      <description>https://github.com/KamieniarzJakub/TankBusters
+Screeny Tech stack Opis gry Gra Tank Busters (nasza własna przeróbka gry asteroids PvPvE dla 2-4 graczy)
+Klient po uruchomieniu gry wybiera jeden z dostępnych pokoi:
+Rozgrywka jest już w toku - gracz dołącza jako obserwator i czeka do końca danej rudy. Gdy runda się zakończy - serwer zaprasza wszystkich graczy w pokoju do nowej rundy Rozgrywka jeszcze nie wystartowała - gracz dołącza do lobby, jeżeli w pokoju jest przynajmniej 2 gotowych graczy, to rozgrywka wystartuje automatycznie po upływie danego czasu.</description>
+    </item>
+    <item>
+      <title>Baza Danych Policja</title>
+      <link>http://localhost:1313/pl/projects/baza-danych-policja/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pl/projects/baza-danych-policja/</guid>
+      <description>Aplikacja na projekt zaliczeniowy z &amp;lsquo;Zarządzanie bazami danych SQL i NoSQL&amp;rsquo;. Aplikacja napisana w Oracle Apex (wymaganie prowadzącego) modelująca wydział ruchu drogowego policji. Założeniem projektu było zamodelowanie wybranej rzeczywistości najpierw jako diagram encji, a potem ręczne przekształcenie go do postaci relacyjnej bazy danych (SQL DDL). Następnie należało napisać aplikację dla naiwnego użytkownika zachowując pełną poprawność przetwarzania danych
+https://github.com/NiebieskiRekin/DB-Drogowka
+Repozytorium zawiera całkiem sporo SQL do tworzenia tabel, procedur, wyzwalaczy i perspektyw. Ponadto utworzyłem też skrypt w Pythonie do generowanie przykładowych danych do aplikacji z użyciem biblioteki Faker.</description>
+    </item>
     <item>
       <title>Next Transit</title>
       <link>http://localhost:1313/pl/projects/next-transit/</link>
-      <pubDate>Thu, 13 Feb 2025 20:55:41 +0100</pubDate>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pl/projects/next-transit/</guid>
-      <description>some random text</description>
+      <description>A beginner project Android app that shows the next available transit info as a home-screen widget using Google Maps Directions API. Built in Kotlin using Android Studio IDE, Gradle and libraries such as: Jetpack Compose, Glance, Ktor, kotlinx-serialization &amp;amp; kotlinx-coroutines
+https://github.com/NiebieskiRekin/next_transit</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pl/about.en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pl/about.en/</guid>
+      <description>Tomasz Pawłowski e-mail: tomasz.pawlowski@tutanota.com portfolio: github.com/NiebieskiRekin
+About me My interests include Linux and electronics projects with the Arduino. I aspire to become a Backend developer or a DevOps engineer. People call me a tidy-minded, calm and self-disciplined person. Studying is the element of mine, I absorb knowledge quickly.
+Skills &amp;#x2328;&amp;#xfe0f; C/C++ Python PostgreSQL Git Java Android Kotlin &amp;#x1f5a5;&amp;#xfe0f; Linux DevOps Bash Docker Ansible Traefik GitHub Actions AWS Google Cloud &amp;#x1f310; Polish - Native speaker English - C1 (ACERT) French - B2 (DELF) German - A2 </description>
     </item>
     <item>
       <title></title>
