@@ -1,15 +1,19 @@
 +++
 title = 'Tank Busters'
 date = 2024-12-15
-tags = ["Cpp", "Linux", "C sockets API"]
-categories = ["Linux", "Networking", "Gamedev", "Studia"]
+tags = ["Cpp", "Linux", "C sockets API", 'Terraform', 'Ansible']
+categories = ["Linux", "Networking", 'DevOps', "Studia"]
 +++
 
 <https://github.com/KamieniarzJakub/TankBusters>
 
 ## Screeny
 
+TODO: add images
+
 ## Tech stack
+
+TODO: add tech stack description
 
 ## Opis gry
 
