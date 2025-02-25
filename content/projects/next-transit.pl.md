@@ -1,9 +1,10 @@
 +++
 title = 'Next Transit'
-date = 2025-02-13T20:55:41+01:00
-draft = false
-tags = ["test", "123", "abc"]
-categories = ["aaa", "bbb", "ccc"]
+date = 2024-09-04
+tags = ["Kotlin", "Android", "Google Maps API"]
+categories = ["Mobile", "Android"]
 +++
 
-some random text
+A beginner project Android app that shows the next available transit info as a home-screen widget using Google Maps Directions API. Built in Kotlin using Android Studio IDE, Gradle and libraries such as: Jetpack Compose, Glance, Ktor, kotlinx-serialization & kotlinx-coroutines
+
+<https://github.com/NiebieskiRekin/next_transit>
