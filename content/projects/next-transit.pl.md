@@ -2,7 +2,7 @@
 title = 'Next Transit'
 date = 2024-02-06
 tags = ["Kotlin", "Android", "Google Maps API"]
-categories = ["Mobile", "Android"]
+categories = ["Android"]
 +++
 
 TODO: add images
