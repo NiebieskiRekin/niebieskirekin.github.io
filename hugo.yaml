@@ -24,7 +24,9 @@ languages:
     params:
       languageCode: pl
       profileMode:
-        subtitle: "O mnie... [:wrench: W TRAKCIE BUDOWY]"
+        subtitle: |
+          Studiuję informatykę na Politechnice Poznańskiej, obecnie jestem na III roku studiów inżynierkich. Chciałbym rozwijać się jako programista Backend lub DevOps.
+          Interesują mnie rozwiązania sieciowe - zarówno kwestie infrastruktury, jak i backend, zagadnienia systemów operacyjnych oraz niskopoziomowych systemów wbudowanych.
         imageTitle: Moje zdjęcie
       editPost:
         URL: "https://github.com/NiebieskiRekin/niebieskirekin.github.io"
