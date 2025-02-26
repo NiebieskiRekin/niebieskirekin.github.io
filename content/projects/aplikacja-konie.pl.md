@@ -5,9 +5,9 @@ tags = ["Typescript", "PostgreSQL", "React", "Google Cloud Platform", "Ansible",
 categories = ["Web", "Networking", "DevOps"]
 +++
 
-Aplikacja dla hodowców koni i weterynarzy
-
 [:wrench: W TRAKCIE BUDOWY]
+Aplikacja dla hodowców koni i weterynarzy.
+Zajmuję się backendem i infrastrukturą (DevOps).
 
 ![Architektura systemu](aplikacja-konie-architektura.png)
 
