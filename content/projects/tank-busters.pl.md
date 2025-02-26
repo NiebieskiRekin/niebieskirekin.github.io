@@ -26,7 +26,6 @@ Klient po uruchomieniu gry wybiera jeden z dostępnych pokoi:
 - Rozgrywka jeszcze nie wystartowała - gracz dołącza do lobby, jeżeli w pokoju jest przynajmniej 2 gotowych graczy, to rozgrywka wystartuje automatycznie po upływie danego czasu. Jeżeli gracz nie zdąży zgłosić swojej gotowości to staje się obserwatorem.
 
 Gracz może zdecydować się opuścić dany pokój przed rozpoczęciem gry i wrócić do wyboru dostępnych pokoi.
-Your main branch isn't protectedProtect this branch from force pushing or deletio
 Przebieg rozgrywki: Serwer rozgłasza rozpoczęcie nowej rozgrywki i rozpoczyna nową rundę. Po rozpoczęciu rundy serwer wymienia informacje z klientami o obiektach (graczach oraz “asteroidach”) znajdujących się na mapie gry.
 
 Jeżeli dany obiekt zostanie trafiony to serwer rozgłasza informacje do wszystkich graczy o zniszczeniu tego obiektu. W przypadku, kiedy to dany gracz zostanie trafiony, zmienia on swoją rolę na obserwującego.
