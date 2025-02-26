@@ -1,7 +1,7 @@
 +++
 title = 'IPC Publish Subscribe'
 date = 2024-01-03
-tags = ["C", "Cmake", "Linux"]
+tags = ["C", "Cmake", "Linux", 'IPC']
 categories = ["Studia", "Linux"]
 +++
 
