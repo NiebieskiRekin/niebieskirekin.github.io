@@ -5,11 +5,11 @@ tags = ['Cpp', 'Opengl']
 categories = ["Visualisations", "Studia"]
 +++
 
-TODO: add description
+Wizualizacja 3D prostej sceny wulkanu z dynamicznym oświetleniem, cząsteczkami i efektem płynącej lawy. Napisana w C++ z użyciem OpenGL.
 
 ![Screenshot](wulkan-grafika.png)
 
-[Nagranie](https://private-user-images.githubusercontent.com/107306041/337386377-f5887954-bef7-4371-95ab-0a03813cc999.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjE1MjcsIm5iZiI6MTc0MDUyMTIyNywicGF0aCI6Ii8xMDczMDYwNDEvMzM3Mzg2Mzc3LWY1ODg3OTU0LWJlZjctNDM3MS05NWFiLTBhMDM4MTNjYzk5OS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyNVQyMjA3MDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YWE5YzM2OGE4ODMxNWQ5ZWZhNjIzMTQwNTcxZTAxMzNmNmI4YjgzYTI0NzQyZTU3ZjEzNzBiN2E5MDVlOGU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.1h4nDDUiFzwZmPtE21XWLEP6xQ9dl5B-d6jajyeaX50)
+[Nagranie](https://github.com/NiebieskiRekin/WulkanGrafika/blob/main/README.md)
 
 ## Repository
 
