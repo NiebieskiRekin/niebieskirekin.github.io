@@ -1,7 +1,7 @@
 +++
 title = 'Tank Busters'
 date = 2024-12-15
-tags = ["Cpp", "Linux", "C sockets API", 'Terraform', 'Ansible']
+tags = ["Cpp", "Linux", "Unix sockets", 'Terraform', 'Ansible']
 categories = ["Linux", "Networking", 'DevOps', "Studia"]
 +++
 
